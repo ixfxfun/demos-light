@@ -1,5 +1,5 @@
-import { Lines, Points } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { Svg } from 'https://unpkg.com/ixfx/dist/visual.js';
+import { Lines, Points } from '../../ixfx/geometry.js';
+import { Svg } from '../../ixfx/visual.js';
 
 // Define settings
 const settings = Object.freeze({

@@ -1,5 +1,5 @@
-import { Points } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { clamp } from 'https://unpkg.com/ixfx/dist/numbers.js';
+import { Points } from 'ixfx/geometry.js';
+import { clamp } from 'ixfx/numbers.js';
 import * as Util from './util.js';
 
 /** 

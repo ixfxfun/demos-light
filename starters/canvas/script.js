@@ -1,4 +1,4 @@
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
+import { CanvasHelper } from 'ixfx/dom.js';
 
 // Define settings - properties that don't change
 const settings = Object.freeze({

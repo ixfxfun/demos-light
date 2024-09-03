@@ -1,6 +1,6 @@
-import * as Mod from 'https://unpkg.com/ixfx/dist/modulation.js';
-import * as Numbers from 'https://unpkg.com/ixfx/dist/numbers.js';
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
+import * as Mod from '../../ixfx/modulation.js';
+import * as Numbers from '../../ixfx/numbers.js';
+import { CanvasHelper } from '../../ixfx/dom.js';
 
 // Define settings
 const settings = Object.freeze({

@@ -1,14 +1,14 @@
 /**
  * Demonstrates fetching JSON data from a URL at a fixed rate using 
  * continuously.
- * https://api.https://unpkg.com/ixfx/dist.fun/modules/Flow.html#continuously
+ * https://api.ixfx.fun/modules/Flow.html#continuously
  * 
  * One problem with polling is that perhaps we're fetching more often
  * than we actually need to use the newer data. An alternative is 
  * demonstrated in `fetch-outdated` where data is only fetched if we 
  * haven't gotten it yet, or if it's older than some age. 
  */
-import { continuously } from "https://unpkg.com/ixfx/dist/flow.js";
+import { continuously } from "ixfx/flow.js";
 
 // Define settings
 const settings = Object.freeze({

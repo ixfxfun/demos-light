@@ -1,5 +1,5 @@
-import { delay } from 'https://unpkg.com/ixfx/dist/flow.js';
-import { Espruino } from 'https://unpkg.com/ixfx/dist/io.js';
+import { delay } from 'ixfx/flow.js';
+import { Espruino } from 'ixfx/io.js';
 import { setHtml, setClass, setCssDisplay } from './util.js';
 
 const scripts = Object.freeze({
@@ -53,7 +53,7 @@ function use() {
 
 /**
  * Called when data is received from Espruino
- * @param {import('https://unpkg.com/ixfx/dist/io.js').IoDataEvent} event 
+ * @param {import('ixfx/io.js').IoDataEvent} event 
  * @returns 
  */
 function onData(event) {

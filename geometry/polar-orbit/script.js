@@ -7,9 +7,9 @@
  * The normal amount to turn is settings.maxRadiansPerCycle. This is multiplied
  * by the state.orbitSpeedFactor to make it slower or faster.
  */
-import { Points } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { Polar } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { Modulation } from 'https://unpkg.com/ixfx/dist/bundle.js';
+import { Points } from '../../ixfx/geometry.js';
+import { Polar } from '../../ixfx/geometry.js';
+import { Modulation } from '../../ixfx/bundle.js';
 
 const settings = Object.freeze({
   // How much angle to increment each loop, if speed is 100%

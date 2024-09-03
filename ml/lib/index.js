@@ -5122,7 +5122,7 @@ hc.prototype.detectForVideo = hc.prototype.G, hc.prototype.detect = hc.prototype
   return Qa(hc, t6, e5);
 }, hc.POSE_CONNECTIONS = xh;
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-XFNQJV53.js
+// node_modules/ixfx/dist/chunk-XFNQJV53.js
 var addArray = (map3, data) => {
   const x3 = new Map(map3.entries());
   for (const d4 of data) {
@@ -5220,7 +5220,7 @@ var NumberMap = class extends Map {
   }
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-BLACMGG6.js
+// node_modules/ixfx/dist/chunk-BLACMGG6.js
 var throwFromResult = (test) => {
   if (test[0]) return false;
   else throw new Error(test[1]);
@@ -5325,7 +5325,7 @@ var throwIntegerTest = (value2, range2 = ``, parameterName = `?`) => {
   throwFromResult(integerTest(value2, range2, parameterName));
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-XO5G6VLT.js
+// node_modules/ixfx/dist/chunk-XO5G6VLT.js
 function round(a4, b4) {
   throwIntegerTest(a4, `positive`, `decimalPlaces`);
   let rounder;
@@ -5337,7 +5337,7 @@ function round(a4, b4) {
   return b4 === void 0 ? rounder : rounder(b4);
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-GFZVK53G.js
+// node_modules/ixfx/dist/chunk-GFZVK53G.js
 function intervalToMs(interval2, defaultNumber) {
   if (isInterval(interval2)) {
     if (typeof interval2 === `number`) return interval2;
@@ -5391,7 +5391,7 @@ var elapsedToHumanString = (millisOrFunction, rounding = 2) => {
   return `${ms2.toFixed(2)}hrs`;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-6UZ3OSJO.js
+// node_modules/ixfx/dist/chunk-6UZ3OSJO.js
 var objectToString = Object.prototype.toString;
 var toTypeString = (value2) => objectToString.call(value2);
 var isMap = (value2) => toTypeString(value2) === `[object Map]`;
@@ -5442,14 +5442,14 @@ var isEqualValueIgnoreOrder = (a4, b4) => {
   return toStringOrdered(a4) === toStringOrdered(b4);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-L5EJU35C.js
+// node_modules/ixfx/dist/chunk-L5EJU35C.js
 var __defProp2 = Object.defineProperty;
 var __export = (target, all) => {
   for (var name in all)
     __defProp2(target, name, { get: all[name], enumerable: true });
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-B3EBEJZ3.js
+// node_modules/ixfx/dist/chunk-B3EBEJZ3.js
 var Events_exports = {};
 __export(Events_exports, {
   SimpleEventEmitter: () => SimpleEventEmitter,
@@ -5766,17 +5766,17 @@ var SimpleEventEmitter = class {
   }
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-5VWJ6TUI.js
+// node_modules/ixfx/dist/chunk-5VWJ6TUI.js
 var defaultRandom = Math.random;
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-7U6QARGK.js
+// node_modules/ixfx/dist/chunk-7U6QARGK.js
 var string = (lengthOrOptions = 5) => {
   const options = typeof lengthOrOptions === `number` ? { length: lengthOrOptions } : lengthOrOptions;
   const calculate = options.source ?? defaultRandom;
   return calculate().toString(36).slice(2, length + 2);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-F3LKPXTP.js
+// node_modules/ixfx/dist/chunk-F3LKPXTP.js
 var Text_exports = {};
 __export(Text_exports, {
   abbreviate: () => abbreviate,
@@ -5970,7 +5970,7 @@ var wildcard = (pattern) => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-GISMJX5E.js
+// node_modules/ixfx/dist/chunk-GISMJX5E.js
 var guardArray = (array2, name = `?`) => {
   if (array2 === void 0) {
     throw new TypeError(`Param '${name}' is undefined. Expected array.`);
@@ -5983,7 +5983,7 @@ var guardArray = (array2, name = `?`) => {
   }
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-5XZFO6U6.js
+// node_modules/ixfx/dist/chunk-5XZFO6U6.js
 function* slice(it2, start = 0, end = Number.POSITIVE_INFINITY) {
   const iit = it2[Symbol.iterator]();
   if (end < start) throw new Error(`Param 'end' should be more than 'start'`);
@@ -6086,7 +6086,7 @@ var minMaxAvg = (data, opts = {}) => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-ZVECQWBZ.js
+// node_modules/ixfx/dist/chunk-ZVECQWBZ.js
 var isFunction = (object2) => object2 instanceof Function;
 var functionTest = (value2, parameterName = `?`) => {
   if (value2 === void 0) return [false, `Param '${parameterName}' is undefined. Expected: function.`];
@@ -6112,7 +6112,7 @@ var throwStringTest = (value2, range2 = ``, parameterName = `?`) => {
   throwFromResult(stringTest(value2, range2, parameterName));
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-QCJFJKA3.js
+// node_modules/ixfx/dist/chunk-QCJFJKA3.js
 var guards_exports = {};
 __export(guards_exports, {
   arrayTest: () => arrayTest,
@@ -6181,7 +6181,7 @@ var isPlainObjectOrPrimitive = (value2) => {
   return isPlainObject(value2);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-HOGLR6UM.js
+// node_modules/ixfx/dist/chunk-HOGLR6UM.js
 var mapKeys = (object2, mapFunction) => {
   const destinationObject = {};
   for (const entries2 of Object.entries(object2)) {
@@ -6191,7 +6191,7 @@ var mapKeys = (object2, mapFunction) => {
   return destinationObject;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-F6WHOKNI.js
+// node_modules/ixfx/dist/chunk-F6WHOKNI.js
 var util_exports = {};
 __export(util_exports, {
   Guards: () => guards_exports,
@@ -6314,7 +6314,7 @@ var minMaxAvg2 = (entries2, conversionFunction) => {
   return minMaxAvg(values);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-XN3FNKKY.js
+// node_modules/ixfx/dist/chunk-XN3FNKKY.js
 var getFromKeys = (data, keys) => {
   for (const key of keys) {
     if (data.has(key)) return data.get(key);
@@ -6356,7 +6356,7 @@ var zipKeyValue = (keys, values) => {
   return Object.fromEntries(keys.map((k3, index) => [k3, values[index]]));
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-24WRBUZC.js
+// node_modules/ixfx/dist/chunk-24WRBUZC.js
 var Map_exports = {};
 __export(Map_exports, {
   MapOfMutableImpl: () => MapOfMutableImpl,
@@ -6916,11 +6916,11 @@ var ofArrayMutable = (options = {}) => {
   return m5;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-YLRZZLGG.js
+// node_modules/ixfx/dist/chunk-YLRZZLGG.js
 var isAsyncIterable = (v3) => Symbol.asyncIterator in new Object(v3);
 var isIterable = (v3) => Symbol.iterator in new Object(v3);
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-4IJNRUE7.js
+// node_modules/ixfx/dist/chunk-4IJNRUE7.js
 var getErrorMessage = (ex) => {
   if (typeof ex === `string`) return ex;
   if (ex instanceof Error) {
@@ -6929,7 +6929,7 @@ var getErrorMessage = (ex) => {
   return ex;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-4IGV3ZF6.js
+// node_modules/ixfx/dist/chunk-4IGV3ZF6.js
 function messageIsSignal(message) {
   if (message.value !== void 0) return false;
   if (`signal` in message && message.signal !== void 0) return true;
@@ -7182,7 +7182,7 @@ function* repeatSync(produce, opts) {
   }
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-IQEKYUOH.js
+// node_modules/ixfx/dist/chunk-IQEKYUOH.js
 var getOrGenerateSync = (map3, fn2) => (key, args) => {
   let value2 = map3.get(key);
   if (value2 !== void 0) return value2;
@@ -7191,7 +7191,7 @@ var getOrGenerateSync = (map3, fn2) => (key, args) => {
   return value2;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-BWJ5AMOD.js
+// node_modules/ixfx/dist/chunk-BWJ5AMOD.js
 var resolveLogOption = (l3, defaults3 = {}) => {
   if (l3 === void 0 || typeof l3 === `boolean` && !l3) {
     return (_3) => {
@@ -7233,7 +7233,7 @@ var logColours = getOrGenerateSync(/* @__PURE__ */ new Map(), () => {
   return `hsl(${hue},50%,75%)`;
 });
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-CF6OEEVD.js
+// node_modules/ixfx/dist/chunk-CF6OEEVD.js
 function* additionalValues(source, values, eq = isEqualDefault) {
   const sourceArray = Array.isArray(source) ? source : [...source];
   const yielded = [];
@@ -7262,7 +7262,7 @@ var unique = (arrays, comparer = isEqualDefault) => {
   return t6;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-HKC65PTS.js
+// node_modules/ixfx/dist/chunk-HKC65PTS.js
 var weightedIndex = (weightings, rand = defaultRandom) => {
   const precompute = [];
   let total = 0;
@@ -7293,7 +7293,7 @@ var shuffle = (dataToShuffle, rand = Math.random) => {
   return array2;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-Y22PKHUJ.js
+// node_modules/ixfx/dist/chunk-Y22PKHUJ.js
 var StateMachine_exports = {};
 __export(StateMachine_exports, {
   WithEvents: () => StateMachineWithEvents,
@@ -7879,7 +7879,7 @@ var fromListBidirectional = (...states) => {
   return t6;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-4FD2KCBI.js
+// node_modules/ixfx/dist/chunk-4FD2KCBI.js
 var timeout = (callback, interval2) => {
   if (callback === void 0) {
     throw new Error(`callback parameter is undefined`);
@@ -7973,7 +7973,7 @@ var rateMinimum = (options) => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-L6MUVYKY.js
+// node_modules/ixfx/dist/chunk-L6MUVYKY.js
 var trimQueue = (opts, queue, toAdd) => {
   const potentialLength = queue.length + toAdd.length;
   const capacity = opts.capacity ?? potentialLength;
@@ -8124,7 +8124,7 @@ function mutable2(options = {}, ...startingItems) {
   return new QueueMutable({ ...options }, [...startingItems]);
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-ZJSCF2A4.js
+// node_modules/ixfx/dist/chunk-ZJSCF2A4.js
 var clamp = (value2, min6 = 0, max5 = 1) => {
   if (Number.isNaN(value2)) throw new Error(`'value' parameter is NaN`);
   if (Number.isNaN(min6)) throw new Error(`'min' parameter is NaN`);
@@ -8149,7 +8149,7 @@ var clampIndex = (v3, arrayOrLength) => {
   return v3;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-2VXZ54M3.js
+// node_modules/ixfx/dist/chunk-2VXZ54M3.js
 function hasElapsed(elapsed3) {
   const t6 = relative(intervalToMs(elapsed3, 0), { timer: elapsedMillisecondsAbsolute(), clampValue: true });
   return () => t6.isDone;
@@ -8324,7 +8324,7 @@ var timerWithFunction = (fn2, timer) => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-SCQC6LJE.js
+// node_modules/ixfx/dist/chunk-SCQC6LJE.js
 var flow_exports = {};
 __export(flow_exports, {
   BehaviourTree: () => BehaviourTree_exports,
@@ -9178,7 +9178,7 @@ var WaitForValue = class {
 };
 var singleItem = () => new WaitForValue();
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-R3Z53AZM.js
+// node_modules/ixfx/dist/chunk-R3Z53AZM.js
 var Video_exports = {};
 __export(Video_exports, {
   capture: () => capture,
@@ -9193,7 +9193,7 @@ async function* frames(sourceVideoEl, opts = {}) {
   w3 = h5 = 0;
   if (canvasEl === void 0) {
     canvasEl = document.createElement(`CANVAS`);
-    canvasEl.classList.add(`https://unpkg.com/ixfx/dist-frames`);
+    canvasEl.classList.add(`ixfx-frames`);
     if (!showCanvas) {
       canvasEl.style.display = `none`;
     }
@@ -9225,7 +9225,7 @@ var capture = (sourceVideoEl, opts = {}) => {
   const w3 = sourceVideoEl.videoWidth;
   const h5 = sourceVideoEl.videoHeight;
   const canvasEl = document.createElement(`CANVAS`);
-  canvasEl.classList.add(`https://unpkg.com/ixfx/dist-capture`);
+  canvasEl.classList.add(`ixfx-capture`);
   if (!showCanvas) {
     canvasEl.style.display = `none`;
   }
@@ -9283,7 +9283,7 @@ var manualCapture = (sourceVideoEl, opts = {}) => {
   let canvasEl = opts.canvasEl;
   if (!canvasEl) {
     canvasEl = document.createElement(`CANVAS`);
-    canvasEl.classList.add(`https://unpkg.com/ixfx/dist-capture`);
+    canvasEl.classList.add(`ixfx-capture`);
     document.body.append(canvasEl);
     if (!showCanvas) canvasEl.style.display = `none`;
   }
@@ -9314,7 +9314,7 @@ var manualCapture = (sourceVideoEl, opts = {}) => {
   return c6;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-UTOEERYG.js
+// node_modules/ixfx/dist/chunk-UTOEERYG.js
 var floatSource = (maxOrOptions = 1) => {
   const options = typeof maxOrOptions === `number` ? { max: maxOrOptions } : maxOrOptions;
   let max5 = options.max;
@@ -9342,7 +9342,7 @@ function* count(amount, offset2 = 0) {
   } while (index++ < Math.abs(amount) - 1);
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-XZAKN3JC.js
+// node_modules/ixfx/dist/chunk-XZAKN3JC.js
 var pow = Math.pow;
 var gaussianA = 1 / Math.sqrt(2 * Math.PI);
 var gaussian = (standardDeviation = 0.4) => {
@@ -9574,7 +9574,7 @@ function* getEasingNames() {
   yield* map3.keys();
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-KN7UFPTB.js
+// node_modules/ixfx/dist/chunk-KN7UFPTB.js
 var wrap2 = (v3, min6 = 0, max5 = 1) => {
   throwNumberTest(v3, ``, `min`);
   throwNumberTest(min6, ``, `min`);
@@ -9593,7 +9593,7 @@ var wrap2 = (v3, min6 = 0, max5 = 1) => {
   return v3;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-ODFCQPOV.js
+// node_modules/ixfx/dist/chunk-ODFCQPOV.js
 var piPi = Math.PI * 2;
 function interpolate(pos1, pos2, pos3, pos4) {
   let amountProcess;
@@ -9654,7 +9654,7 @@ function interpolate(pos1, pos2, pos3, pos4) {
   }
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-GHCV5Z5H.js
+// node_modules/ixfx/dist/chunk-GHCV5Z5H.js
 var scale = (v3, inMin, inMax, outMin, outMax, easing) => scaler(inMin, inMax, outMin, outMax, easing)(v3);
 var scaler = (inMin, inMax, outMin, outMax, easing) => {
   const oMax = outMax ?? 1;
@@ -9667,7 +9667,7 @@ var scaler = (inMin, inMax, outMin, outMax, easing) => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-DTSGJWNP.js
+// node_modules/ixfx/dist/chunk-DTSGJWNP.js
 var Bipolar_exports = {};
 __export(Bipolar_exports, {
   clamp: () => clamp2,
@@ -9763,7 +9763,7 @@ var flip = (v3) => {
   return 1 - v3;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-MZFSDYZE.js
+// node_modules/ixfx/dist/chunk-MZFSDYZE.js
 var containsDuplicateInstances = (array2) => {
   if (!Array.isArray(array2)) throw new Error(`Parameter needs to be an array`);
   for (let index = 0; index < array2.length; index++) {
@@ -9775,7 +9775,7 @@ var containsDuplicateInstances = (array2) => {
   return false;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-XA3MFF52.js
+// node_modules/ixfx/dist/chunk-XA3MFF52.js
 function reduce(it2, f5, start) {
   for (const v3 of it2) start = f5(start, v3);
   return start;
@@ -10725,7 +10725,7 @@ function getNamedEntry(node, defaultName = ``) {
   return { name: defaultName, nodeValue: node, sourceValue: node };
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-22HPBYMV.js
+// node_modules/ixfx/dist/chunk-22HPBYMV.js
 var StackImmutable = class _StackImmutable {
   constructor(opts = {}, data = []) {
     this.opts = opts;
@@ -10760,7 +10760,7 @@ var StackImmutable = class _StackImmutable {
   }
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-ZNCB3DZ2.js
+// node_modules/ixfx/dist/chunk-ZNCB3DZ2.js
 var resolveEl = (domQueryOrEl) => {
   if (typeof domQueryOrEl === `string`) {
     const d4 = document.querySelector(domQueryOrEl);
@@ -10792,7 +10792,7 @@ var resolveEls = (selectors) => {
   return [selectors];
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-BGQOJZFW.js
+// node_modules/ixfx/dist/chunk-BGQOJZFW.js
 function* pairwise(values) {
   guardArray(values, `values`);
   if (values.length < 2) throw new Error(`Array needs to have at least two entries. Length: ${values.length}`);
@@ -10801,7 +10801,7 @@ function* pairwise(values) {
   }
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-BZFRTFR3.js
+// node_modules/ixfx/dist/chunk-BZFRTFR3.js
 var Colour_exports = {};
 __export(Colour_exports, {
   cssLinearGradient: () => cssLinearGradient,
@@ -14990,7 +14990,7 @@ var isRgb = (p22) => {
   return true;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-QEOF2KQ6.js
+// node_modules/ixfx/dist/chunk-QEOF2KQ6.js
 var insertAt = (data, index, ...values) => {
   if (!Array.isArray(data)) {
     throw new TypeError(`Param 'data' is not an arry`);
@@ -15005,7 +15005,7 @@ var remove2 = (data, index) => {
   return [...data.slice(0, index), ...data.slice(index + 1)];
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-54PXOMGL.js
+// node_modules/ixfx/dist/chunk-54PXOMGL.js
 var maxScore = (iterable, scorer) => {
   let highestValue;
   let highestScore = Number.MIN_SAFE_INTEGER;
@@ -15155,7 +15155,7 @@ var compareData = (a4, b4, assumeSameShape = false, eq = isEqualDefault) => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-ZCVS6SFU.js
+// node_modules/ixfx/dist/chunk-ZCVS6SFU.js
 var rx_exports = {};
 __export(rx_exports, {
   Dom: () => Dom_exports,
@@ -19341,7 +19341,7 @@ var to4 = (a4, b4, transform2, closeBonA = false) => {
   return unsub;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-GNUWD24I.js
+// node_modules/ixfx/dist/chunk-GNUWD24I.js
 var queue_exports = {};
 __export(queue_exports, {
   PriorityMutable: () => PriorityMutable,
@@ -19428,7 +19428,7 @@ function asResponsive(queue) {
   };
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-WSRNZ4D4.js
+// node_modules/ixfx/dist/chunk-WSRNZ4D4.js
 var DomRx_exports = {};
 __export(DomRx_exports, {
   resizeObservable: () => resizeObservable,
@@ -19506,7 +19506,7 @@ var parentSizeCanvas = (domQueryOrEl, onResized, timeoutMs = 100) => {
   return ro2;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-PZET2535.js
+// node_modules/ixfx/dist/chunk-PZET2535.js
 var isNull = (p4) => p4.x === null && p4.y === null;
 var isNaN2 = (p4) => Number.isNaN(p4.x) || Number.isNaN(p4.y);
 function guard(p4, name = `Point`) {
@@ -19587,7 +19587,7 @@ var fromNumbers = (x1, y1, x22, y22) => {
   return fromPoints(a4, b4);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-V7MA3QCK.js
+// node_modules/ixfx/dist/chunk-V7MA3QCK.js
 var Svg_exports = {};
 __export(Svg_exports, {
   Elements: () => SvgElements_exports,
@@ -19949,7 +19949,7 @@ var makeHelper = (parent, parentOpts) => {
   return o5;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-LOIP62EP.js
+// node_modules/ixfx/dist/chunk-LOIP62EP.js
 var quantiseEvery = (v3, every3, middleRoundsUp = true) => {
   const everyStr = every3.toString();
   const decimal = everyStr.indexOf(`.`);
@@ -19985,7 +19985,7 @@ function* linearSpace(start, end, steps2, precision) {
   }
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-NGZXMICH.js
+// node_modules/ixfx/dist/chunk-NGZXMICH.js
 var dotProduct = (values) => {
   let r5 = 0;
   const length5 = values[0].length;
@@ -20016,7 +20016,7 @@ var minFast = (data) => {
   return m5;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-UF3EQW5C.js
+// node_modules/ixfx/dist/chunk-UF3EQW5C.js
 var set_exports = {};
 __export(set_exports, {
   MassiveSet: () => MassiveSet,
@@ -20253,7 +20253,7 @@ var MassiveSet = class _MassiveSet {
   }
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-AGCCB7IA.js
+// node_modules/ixfx/dist/chunk-AGCCB7IA.js
 var sortByNumericProperty = (data, propertyName) => [...data].sort((a4, b4) => {
   guardArray(data, `data`);
   const av = a4[propertyName];
@@ -20263,7 +20263,7 @@ var sortByNumericProperty = (data, propertyName) => [...data].sort((a4, b4) => {
   return 0;
 });
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-H3AVG2VJ.js
+// node_modules/ixfx/dist/chunk-H3AVG2VJ.js
 var geometry_exports = {};
 __export(geometry_exports, {
   Arcs: () => arc_exports,
@@ -26426,7 +26426,7 @@ var intersectsPoint2 = (t22, a4, b4) => {
   return 0 <= bc.a && bc.a <= 1 && 0 <= bc.b && bc.b <= 1 && 0 <= bc.c && bc.c <= 1;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-IVYKFPJL.js
+// node_modules/ixfx/dist/chunk-IVYKFPJL.js
 var visual_exports = {};
 __export(visual_exports, {
   BipolarView: () => BipolarView_exports,
@@ -28890,8 +28890,8 @@ var plot = (parentElementOrQuery, opts) => {
 };
 try {
   if (typeof window !== `undefined`) {
-    window.https://unpkg.com/ixfx/dist = {
-      ...window.https://unpkg.com/ixfx/dist,
+    window.ixfx = {
+      ...window.ixfx,
       Visuals: {
         SceneGraph: SceneGraph_exports,
         Plot2: Plot2_exports,
@@ -28906,7 +28906,7 @@ try {
 } catch {
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-NRMCFXBX.js
+// node_modules/ixfx/dist/chunk-NRMCFXBX.js
 var random_exports = {};
 __export(random_exports, {
   arrayElement: () => randomElement,

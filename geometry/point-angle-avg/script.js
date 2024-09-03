@@ -1,6 +1,6 @@
-import { Points, radianToDegree } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { scale } from 'https://unpkg.com/ixfx/dist/numbers.js';
-import * as Trackers from 'https://unpkg.com/ixfx/dist/trackers.js';
+import { Points, radianToDegree } from '../../ixfx/geometry.js';
+import { scale } from '../../ixfx/numbers.js';
+import * as Trackers from '../../ixfx/trackers.js';
 import * as Util from './util.js';
 
 let state = Object.freeze({

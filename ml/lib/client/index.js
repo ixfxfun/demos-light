@@ -20,7 +20,7 @@ __export(poses_exports, {
   roughCenter: () => roughCenter
 });
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-BLACMGG6.js
+// node_modules/ixfx/dist/chunk-BLACMGG6.js
 var throwFromResult = (test) => {
   if (test[0]) return false;
   else throw new Error(test[1]);
@@ -125,7 +125,7 @@ var throwIntegerTest = (value, range2 = ``, parameterName = `?`) => {
   throwFromResult(integerTest(value, range2, parameterName));
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-PZET2535.js
+// node_modules/ixfx/dist/chunk-PZET2535.js
 var isNull = (p2) => p2.x === null && p2.y === null;
 var isNaN2 = (p2) => Number.isNaN(p2.x) || Number.isNaN(p2.y);
 function guard(p2, name2 = `Point`) {
@@ -206,7 +206,7 @@ var fromNumbers = (x1, y1, x2, y2) => {
   return fromPoints(a2, b2);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-XO5G6VLT.js
+// node_modules/ixfx/dist/chunk-XO5G6VLT.js
 function round(a2, b2) {
   throwIntegerTest(a2, `positive`, `decimalPlaces`);
   let rounder;
@@ -218,7 +218,7 @@ function round(a2, b2) {
   return b2 === void 0 ? rounder : rounder(b2);
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-LOIP62EP.js
+// node_modules/ixfx/dist/chunk-LOIP62EP.js
 var quantiseEvery = (v, every, middleRoundsUp = true) => {
   const everyStr = every.toString();
   const decimal = everyStr.indexOf(`.`);
@@ -254,7 +254,7 @@ function* linearSpace(start, end, steps2, precision) {
   }
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-NGZXMICH.js
+// node_modules/ixfx/dist/chunk-NGZXMICH.js
 var dotProduct = (values) => {
   let r = 0;
   const length5 = values[0].length;
@@ -299,7 +299,7 @@ var minFast = (data) => {
   return m3;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-GFZVK53G.js
+// node_modules/ixfx/dist/chunk-GFZVK53G.js
 function intervalToMs(interval2, defaultNumber) {
   if (isInterval(interval2)) {
     if (typeof interval2 === `number`) return interval2;
@@ -333,7 +333,7 @@ function isInterval(interval2) {
   return false;
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-6UZ3OSJO.js
+// node_modules/ixfx/dist/chunk-6UZ3OSJO.js
 var objectToString = Object.prototype.toString;
 var toTypeString = (value) => objectToString.call(value);
 var isMap = (value) => toTypeString(value) === `[object Map]`;
@@ -384,14 +384,14 @@ var isEqualValueIgnoreOrder = (a2, b2) => {
   return toStringOrdered(a2) === toStringOrdered(b2);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-L5EJU35C.js
+// node_modules/ixfx/dist/chunk-L5EJU35C.js
 var __defProp2 = Object.defineProperty;
 var __export2 = (target, all) => {
   for (var name2 in all)
     __defProp2(target, name2, { get: all[name2], enumerable: true });
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-B3EBEJZ3.js
+// node_modules/ixfx/dist/chunk-B3EBEJZ3.js
 var Events_exports = {};
 __export2(Events_exports, {
   SimpleEventEmitter: () => SimpleEventEmitter,
@@ -708,7 +708,7 @@ var SimpleEventEmitter = class {
   }
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-UF3EQW5C.js
+// node_modules/ixfx/dist/chunk-UF3EQW5C.js
 var set_exports = {};
 __export2(set_exports, {
   MassiveSet: () => MassiveSet,
@@ -945,7 +945,7 @@ var MassiveSet = class _MassiveSet {
   }
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-GISMJX5E.js
+// node_modules/ixfx/dist/chunk-GISMJX5E.js
 var guardArray = (array, name2 = `?`) => {
   if (array === void 0) {
     throw new TypeError(`Param '${name2}' is undefined. Expected array.`);
@@ -958,7 +958,7 @@ var guardArray = (array, name2 = `?`) => {
   }
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-AGCCB7IA.js
+// node_modules/ixfx/dist/chunk-AGCCB7IA.js
 var sortByNumericProperty = (data, propertyName) => [...data].sort((a2, b2) => {
   guardArray(data, `data`);
   const av = a2[propertyName];
@@ -968,7 +968,7 @@ var sortByNumericProperty = (data, propertyName) => [...data].sort((a2, b2) => {
   return 0;
 });
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-KN7UFPTB.js
+// node_modules/ixfx/dist/chunk-KN7UFPTB.js
 var wrap = (v, min2 = 0, max3 = 1) => {
   throwNumberTest(v, ``, `min`);
   throwNumberTest(min2, ``, `min`);
@@ -987,7 +987,7 @@ var wrap = (v, min2 = 0, max3 = 1) => {
   return v;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-ZJSCF2A4.js
+// node_modules/ixfx/dist/chunk-ZJSCF2A4.js
 var clamp = (value, min2 = 0, max3 = 1) => {
   if (Number.isNaN(value)) throw new Error(`'value' parameter is NaN`);
   if (Number.isNaN(min2)) throw new Error(`'min' parameter is NaN`);
@@ -1012,7 +1012,7 @@ var clampIndex = (v, arrayOrLength) => {
   return v;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-GHCV5Z5H.js
+// node_modules/ixfx/dist/chunk-GHCV5Z5H.js
 var scale = (v, inMin, inMax, outMin, outMax, easing) => scaler(inMin, inMax, outMin, outMax, easing)(v);
 var scaler = (inMin, inMax, outMin, outMax, easing) => {
   const oMax = outMax ?? 1;
@@ -1025,17 +1025,17 @@ var scaler = (inMin, inMax, outMin, outMax, easing) => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-5VWJ6TUI.js
+// node_modules/ixfx/dist/chunk-5VWJ6TUI.js
 var defaultRandom = Math.random;
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-7U6QARGK.js
+// node_modules/ixfx/dist/chunk-7U6QARGK.js
 var string = (lengthOrOptions = 5) => {
   const options = typeof lengthOrOptions === `number` ? { length: lengthOrOptions } : lengthOrOptions;
   const calculate = options.source ?? defaultRandom;
   return calculate().toString(36).slice(2, length + 2);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-F3LKPXTP.js
+// node_modules/ixfx/dist/chunk-F3LKPXTP.js
 var Text_exports = {};
 __export2(Text_exports, {
   abbreviate: () => abbreviate,
@@ -1229,7 +1229,7 @@ var wildcard = (pattern) => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-5XZFO6U6.js
+// node_modules/ixfx/dist/chunk-5XZFO6U6.js
 function* slice(it, start = 0, end = Number.POSITIVE_INFINITY) {
   const iit = it[Symbol.iterator]();
   if (end < start) throw new Error(`Param 'end' should be more than 'start'`);
@@ -1316,7 +1316,7 @@ var minMaxAvg = (data, opts = {}) => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-ZVECQWBZ.js
+// node_modules/ixfx/dist/chunk-ZVECQWBZ.js
 var isFunction = (object) => object instanceof Function;
 var functionTest = (value, parameterName = `?`) => {
   if (value === void 0) return [false, `Param '${parameterName}' is undefined. Expected: function.`];
@@ -1342,7 +1342,7 @@ var throwStringTest = (value, range2 = ``, parameterName = `?`) => {
   throwFromResult(stringTest(value, range2, parameterName));
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-QCJFJKA3.js
+// node_modules/ixfx/dist/chunk-QCJFJKA3.js
 var guards_exports = {};
 __export2(guards_exports, {
   arrayTest: () => arrayTest,
@@ -1411,7 +1411,7 @@ var isPlainObjectOrPrimitive = (value) => {
   return isPlainObject(value);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-HOGLR6UM.js
+// node_modules/ixfx/dist/chunk-HOGLR6UM.js
 var mapKeys = (object, mapFunction) => {
   const destinationObject = {};
   for (const entries of Object.entries(object)) {
@@ -1421,7 +1421,7 @@ var mapKeys = (object, mapFunction) => {
   return destinationObject;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-F6WHOKNI.js
+// node_modules/ixfx/dist/chunk-F6WHOKNI.js
 var util_exports = {};
 __export2(util_exports, {
   Guards: () => guards_exports,
@@ -1544,7 +1544,7 @@ var minMaxAvg2 = (entries, conversionFunction) => {
   return minMaxAvg(values);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-XN3FNKKY.js
+// node_modules/ixfx/dist/chunk-XN3FNKKY.js
 var zipKeyValue = (keys, values) => {
   if (keys.length !== values.length) {
     throw new Error(`Keys and values arrays should be same length`);
@@ -1552,13 +1552,13 @@ var zipKeyValue = (keys, values) => {
   return Object.fromEntries(keys.map((k, index) => [k, values[index]]));
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-HKC65PTS.js
+// node_modules/ixfx/dist/chunk-HKC65PTS.js
 var randomElement = (array, rand = Math.random) => {
   guardArray(array, `array`);
   return array[Math.floor(rand() * array.length)];
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-H3AVG2VJ.js
+// node_modules/ixfx/dist/chunk-H3AVG2VJ.js
 var geometry_exports = {};
 __export2(geometry_exports, {
   Arcs: () => arc_exports,
@@ -7721,7 +7721,7 @@ var intersectsPoint2 = (t2, a2, b2) => {
   return 0 <= bc.a && bc.a <= 1 && 0 <= bc.b && bc.b <= 1 && 0 <= bc.c && bc.c <= 1;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-BGQOJZFW.js
+// node_modules/ixfx/dist/chunk-BGQOJZFW.js
 function* pairwise(values) {
   guardArray(values, `values`);
   if (values.length < 2) throw new Error(`Array needs to have at least two entries. Length: ${values.length}`);
@@ -7730,7 +7730,7 @@ function* pairwise(values) {
   }
 }
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-BZFRTFR3.js
+// node_modules/ixfx/dist/chunk-BZFRTFR3.js
 var Colour_exports = {};
 __export2(Colour_exports, {
   cssLinearGradient: () => cssLinearGradient,
@@ -11987,7 +11987,7 @@ var roughCenter = (pose) => {
   return point_exports.divide(sum5, 2, 2);
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-IQEKYUOH.js
+// node_modules/ixfx/dist/chunk-IQEKYUOH.js
 var getOrGenerate = (map, fn) => async (key, args) => {
   let value = map.get(key);
   if (value !== void 0) return value;
@@ -11997,7 +11997,7 @@ var getOrGenerate = (map, fn) => async (key, args) => {
   return value;
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-UZPYPFQS.js
+// node_modules/ixfx/dist/chunk-UZPYPFQS.js
 var TrackerBase = class {
   constructor(opts = {}) {
     this.id = opts.id ?? `tracker`;
@@ -12166,7 +12166,7 @@ var TrackedValueMap = class {
   }
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-PACXC2BC.js
+// node_modules/ixfx/dist/chunk-PACXC2BC.js
 var PrimitiveTracker = class extends TrackerBase {
   //data: Array<TimestampedPrimitive<V>>;
   constructor(opts) {
@@ -12308,7 +12308,7 @@ var NumberTracker = class extends PrimitiveTracker {
 };
 var number = (opts = {}) => new NumberTracker(opts);
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-DNND422Y.js
+// node_modules/ixfx/dist/chunk-DNND422Y.js
 var ObjectTracker = class extends TrackerBase {
   constructor(opts = {}) {
     super(opts);
@@ -12583,7 +12583,7 @@ var uniqueInstances = () => {
   };
 };
 
-// node_modules/https://unpkg.com/ixfx/dist/dist/chunk-TLSLF6A5.js
+// node_modules/ixfx/dist/chunk-TLSLF6A5.js
 var trackers_exports = {};
 __export2(trackers_exports, {
   FrequencyTracker: () => FrequencyTracker,
@@ -12775,7 +12775,7 @@ var PoseTracker = class {
     this.points.reset();
   }
   /**
-   * Returns a [PointTracker](https://api.https://unpkg.com/ixfx/dist.fun/classes/Trackers.PointTracker) for a given landmark
+   * Returns a [PointTracker](https://api.ixfx.fun/classes/Trackers.PointTracker) for a given landmark
    * by name or index.
    * 
    * ```js
@@ -12832,7 +12832,7 @@ var PoseTracker = class {
     }
   }
   /**
-   * Returns all the [PointTrackers](https://api.https://unpkg.com/ixfx/dist.fun/classes/Trackers.PointTracker) (ie. landmark) for this pose.
+   * Returns all the [PointTrackers](https://api.ixfx.fun/classes/Trackers.PointTracker) (ie. landmark) for this pose.
    * 
    * ```js
    * for (const pt of pose.getPointTrackers()) {
@@ -13060,7 +13060,7 @@ var PosesTracker = class extends EventTarget {
     }
   }
   /**
-   * Enumerates all [PointTrackers](https://api.https://unpkg.com/ixfx/dist.fun/classes/Trackers.PointTracker) for a given landmark id.
+   * Enumerates all [PointTrackers](https://api.ixfx.fun/classes/Trackers.PointTracker) for a given landmark id.
    * 
    * eg. to get the PointTracker for 'nose' across all poses currently seen:
    * 
@@ -13083,7 +13083,7 @@ var PosesTracker = class extends EventTarget {
     }
   }
   /**
-   * Returns all [PointTrackers](https://api.https://unpkg.com/ixfx/dist.fun/classes/Trackers.PointTracker) from a particular sender
+   * Returns all [PointTrackers](https://api.ixfx.fun/classes/Trackers.PointTracker) from a particular sender
    * 
    * ```js
    * for (const pt of poses.getFromSender(`mobile`)) {

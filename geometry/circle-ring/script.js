@@ -1,6 +1,6 @@
-import { continuously } from 'https://unpkg.com/ixfx/dist/flow.js';
-import { Points } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { Polar } from 'https://unpkg.com/ixfx/dist/geometry.js';
+import { continuously } from '../../ixfx/flow.js';
+import { Points } from '../../ixfx/geometry.js';
+import { Polar } from '../../ixfx/geometry.js';
 
 const settings = Object.freeze({
   // how many points to distribute around the circumference

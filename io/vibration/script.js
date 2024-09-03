@@ -1,4 +1,4 @@
-import { defaultErrorHandler } from 'https://unpkg.com/ixfx/dist/dom.js';
+import { defaultErrorHandler } from 'ixfx/dom.js';
 
 let state = Object.freeze({});
 

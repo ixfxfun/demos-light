@@ -1,4 +1,4 @@
-import * as Numbers from 'https://unpkg.com/ixfx/dist/numbers.js';
+import * as Numbers from 'ixfx/numbers.js';
 
 // ---- General CSS/HTML helper functions ----
 export const setCssDisplay = (id, value) => {

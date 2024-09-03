@@ -2,8 +2,8 @@
  * Generates a stacked set of gradients based on a given
  * angle interval. Gradient hues are rotated over time.
  */
-import { continuously } from 'https://unpkg.com/ixfx/dist/flow.js';
-import * as Numbers from 'https://unpkg.com/ixfx/dist/numbers.js';
+import { continuously } from 'ixfx/flow.js';
+import * as Numbers from 'ixfx/numbers.js';
 
 const settings = Object.freeze({
   // Opacity of gradient stop

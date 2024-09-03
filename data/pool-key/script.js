@@ -1,5 +1,5 @@
-import * as Arrays from 'https://unpkg.com/ixfx/dist/arrays.js';
-import { Pool } from 'https://unpkg.com/ixfx/dist/data.js';
+import * as Arrays from 'ixfx/arrays.js';
+import { Pool } from 'ixfx/data.js';
 
 const settings = Object.freeze({
   pool: Pool.create({

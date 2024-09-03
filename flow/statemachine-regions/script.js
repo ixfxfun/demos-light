@@ -1,8 +1,8 @@
-import { clamp } from 'https://unpkg.com/ixfx/dist/numbers.js';
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
-import { Colour } from 'https://unpkg.com/ixfx/dist/visual.js';
-import { StateMachine, Elapsed } from 'https://unpkg.com/ixfx/dist/flow.js';
-import { Circles } from 'https://unpkg.com/ixfx/dist/geometry.js';
+import { clamp } from 'ixfx/numbers.js';
+import { CanvasHelper } from 'ixfx/dom.js';
+import { Colour } from 'ixfx/visual.js';
+import { StateMachine, Elapsed } from 'ixfx/flow.js';
+import { Circles } from 'ixfx/geometry.js';
 
 const settings = Object.freeze({
   canvas: new CanvasHelper(`#canvas`, { fill: `viewport` }),

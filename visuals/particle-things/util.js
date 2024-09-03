@@ -1,4 +1,4 @@
-import { CanvasHelper } from "https://unpkg.com/ixfx/dist/dom.js";
+import { CanvasHelper } from "ixfx/dom.js";
 
 /**
  * Draw a circle

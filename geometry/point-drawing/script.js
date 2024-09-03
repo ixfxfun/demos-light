@@ -1,6 +1,6 @@
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
-import { repeatSync } from 'https://unpkg.com/ixfx/dist/flow.js';
-import { Colour } from 'https://unpkg.com/ixfx/dist/visual.js';
+import { CanvasHelper } from '../../ixfx/dom.js';
+import { repeatSync } from '../../ixfx/flow.js';
+import { Colour } from '../../ixfx/visual.js';
 
 /**
  * Returns a new random point with radius

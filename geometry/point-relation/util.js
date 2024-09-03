@@ -1,4 +1,4 @@
-import { Points, radianToDegree } from 'https://unpkg.com/ixfx/dist/geometry.js';
+import { Points, radianToDegree } from '../../ixfx/geometry.js';
 
 /**
  * Returns the relative position from an absolute one

@@ -1,4 +1,4 @@
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
+import { CanvasHelper } from 'ixfx/dom.js';
 import * as Things from './thing.js';
 
 // Settings for sketch
@@ -7,7 +7,7 @@ const settings = Object.freeze({
   thingUpdateSpeedMs: 10,
   // How many things to spawn
   spawnThings: 100,
-  // Create an https://unpkg.com/ixfx/dist CanvasHelper to manage scaling and sizing
+  // Create an ixfx CanvasHelper to manage scaling and sizing
   canvas: new CanvasHelper(`#canvas`, { fill: `viewport` })
 });
 
@@ -26,11 +26,11 @@ let state = Object.freeze({
 
 /**
  * Makes use of the data contained in `state`
+ * @param {State} state
  */
-const use = () => {
+const use = (state) => {
   const { canvas } = settings;
   const { things } = state;
-
 
   // 1. Eg. use the ambient state
 
@@ -45,7 +45,7 @@ const update = () => {
   // 2. Sanity check
   // 3. Save state
   // 4. Use state
-  use();
+  use(saveState({}));
 
   // 5. Call itself
   window.requestAnimationFrame(update);
@@ -87,6 +87,7 @@ function saveState(s) {
     ...state,
     ...s
   });
+  return state;
 }
 
 /**

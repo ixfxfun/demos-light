@@ -1,5 +1,5 @@
-import { continuously } from 'https://unpkg.com/ixfx/dist/flow.js';
-import { Espruino } from 'https://unpkg.com/ixfx/dist/io.js';
+import { continuously } from 'ixfx/flow.js';
+import { Espruino } from 'ixfx/io.js';
 import { setCssDisplay } from './util.js';
 
 const settings = Object.freeze({

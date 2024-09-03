@@ -1,4 +1,4 @@
-import * as Dom from 'https://unpkg.com/ixfx/dist/dom.js';
+import * as Dom from 'ixfx/dom.js';
 import { Wled } from "../wled.js";
 
 const settings = Object.freeze({

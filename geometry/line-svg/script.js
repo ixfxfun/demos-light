@@ -1,6 +1,6 @@
-import { Svg, Colour } from 'https://unpkg.com/ixfx/dist/visual.js';
-import { Points } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { Numbers, Dom, Modulation } from 'https://unpkg.com/ixfx/dist/bundle.js';
+import { Svg, Colour } from '../../ixfx/visual.js';
+import { Points } from '../../ixfx/geometry.js';
+import { Numbers, Dom, Modulation } from '../../ixfx/bundle.js';
 
 const settings = Object.freeze({
   // Relative middle

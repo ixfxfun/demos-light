@@ -1,8 +1,8 @@
 /**
  * Receives JSON from a microcontroller
  */
-import { Serial } from 'https://unpkg.com/ixfx/dist/io.js';
-import { scale } from 'https://unpkg.com/ixfx/dist/numbers.js';
+import { Serial } from 'ixfx/io.js';
+import { scale } from 'ixfx/numbers.js';
 
 const settings = Object.freeze({
   serial: new Serial.Device({ name: `Arduino`, debug: true, eol: `\n` }),

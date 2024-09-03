@@ -1,6 +1,6 @@
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
-import { Colour } from 'https://unpkg.com/ixfx/dist/visual.js';
-import { Points, Lines } from 'https://unpkg.com/ixfx/dist/geometry.js';
+import { CanvasHelper } from '../../ixfx/dom.js';
+import { Colour } from '../../ixfx/visual.js';
+import { Points, Lines } from '../../ixfx/geometry.js';
 
 const piPi = Math.PI * 2;
 

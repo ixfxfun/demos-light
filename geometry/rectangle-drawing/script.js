@@ -5,8 +5,8 @@
  *  - Computing corners coordinates, computing line geometry for a rectangle
  *  - Drawing based on these computed composite shapes
  */
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
-import { Rects, Lines } from 'https://unpkg.com/ixfx/dist/geometry.js';
+import { CanvasHelper } from '../../ixfx/dom.js';
+import { Rects, Lines } from '../../ixfx/geometry.js';
 
 // Define settings
 const settings = Object.freeze({

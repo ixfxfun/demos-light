@@ -1,4 +1,4 @@
-import { clamp } from 'https://unpkg.com/ixfx/dist/numbers.js';
+import { clamp } from 'ixfx/numbers.js';
 
 /**
  * Convert relative point to absolute.

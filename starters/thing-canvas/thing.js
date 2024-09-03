@@ -1,7 +1,7 @@
-import { Points } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { interpolate, clamp } from 'https://unpkg.com/ixfx/dist/numbers.js';
+import { Points } from 'ixfx/geometry.js';
+import { interpolate, clamp } from 'ixfx/numbers.js';
+import { CanvasHelper } from 'ixfx/dom.js';
 import * as Util from './util.js';
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
 
 const settings = Object.freeze({
   hueInterpolateAmount: 0.01,

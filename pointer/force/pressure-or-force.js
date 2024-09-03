@@ -1,4 +1,4 @@
-import { clamp, scale } from 'https://unpkg.com/ixfx/dist/numbers.js';
+import { clamp, scale } from 'ixfx/numbers.js';
 /**
  * @typedef PressureForceState
  * @property {number} [webkitForce]

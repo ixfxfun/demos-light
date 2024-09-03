@@ -1,5 +1,5 @@
-import { Points } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { interpolate } from 'https://unpkg.com/ixfx/dist/numbers.js';
+import { Points } from 'ixfx/geometry.js';
+import { interpolate } from 'ixfx/numbers.js';
 import { Poses } from "../util/Poses.js";
 import * as Util from './util.js';
 

@@ -4,11 +4,11 @@
  * and should not need to be modified
  * #####################################
  */
-import { Colour } from 'https://unpkg.com/ixfx/dist/visual.js';
-import * as Arrays from 'https://unpkg.com/ixfx/dist/arrays.js';
-import { wrapRange } from 'https://unpkg.com/ixfx/dist/numbers.js';
-import { StateMachine } from 'https://unpkg.com/ixfx/dist/flow.js';
-import { SimpleEventEmitter } from 'https://unpkg.com/ixfx/dist/events.js';
+import { Colour } from 'ixfx/visual.js';
+import * as Arrays from 'ixfx/arrays.js';
+import { wrapRange } from 'ixfx/numbers.js';
+import { StateMachine } from 'ixfx/flow.js';
+import { SimpleEventEmitter } from 'ixfx/events.js';
 
 /**
  * Parses an array of strings or [index,colour].

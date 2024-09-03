@@ -1,5 +1,5 @@
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
-import { Points, Lines, radianToDegree, Polar, degreeToRadian } from 'https://unpkg.com/ixfx/dist/geometry.js';
+import { CanvasHelper } from '../../ixfx/dom.js';
+import { Points, Lines, radianToDegree, Polar, degreeToRadian } from '../../ixfx/geometry.js';
 
 const piPi = Math.PI * 2;
 

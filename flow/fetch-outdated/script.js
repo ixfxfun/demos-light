@@ -1,5 +1,5 @@
 
-import { updateOutdated } from 'https://unpkg.com/ixfx/dist/flow.js';
+import { updateOutdated } from 'ixfx/flow.js';
 
 // Define settings
 const settings = Object.freeze({

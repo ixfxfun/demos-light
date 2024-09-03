@@ -1,5 +1,5 @@
-import * as Numbers from 'https://unpkg.com/ixfx/dist/numbers.js';
-import * as Trackers from 'https://unpkg.com/ixfx/dist/trackers.js';
+import * as Numbers from 'ixfx/numbers.js';
+import * as Trackers from 'ixfx/trackers.js';
 import * as Util from "./util.js";
 
 const settings = Object.freeze({
@@ -17,7 +17,7 @@ const settings = Object.freeze({
 
 /** 
  * @typedef {{
- *  relative:import("https://unpkg.com/ixfx/dist/trackers.js").PointTrack|undefined,
+ *  relative:import("ixfx/trackers.js").PointTrack|undefined,
  *  angle: number
  *  speed: number
  * }} State

@@ -1,5 +1,5 @@
-import { Modulation, Numbers, Iterables } from 'https://unpkg.com/ixfx/dist/bundle.js';
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
+import { Modulation, Numbers, Iterables } from '../../ixfx/bundle.js';
+import { CanvasHelper } from '../../ixfx/dom.js';
 
 const settings = Object.freeze({
   canvas: new CanvasHelper(`#canvas`, { fill: `viewport`, scaleBy: `min` }),
@@ -72,7 +72,7 @@ const draw = () => {
   // Convert radius to absolute value
   let radiusAbs = radius * canvas.dimensionMin;
 
-  // Uses https://unpkg.com/ixfx/dist's forEach and count to run the body 10 times
+  // Uses ixfx's forEach and count to run the body 10 times
   Iterables.forEach(Numbers.count(10), () => {
     // Draw a circle with given radius  
     drawGradientCircle(radiusAbs);

@@ -1,6 +1,6 @@
-import { Circles } from 'https://unpkg.com/ixfx/dist/geometry.js';
-import { Svg } from 'https://unpkg.com/ixfx/dist/visual.js';
-import { Numbers, Dom, Modulation } from 'https://unpkg.com/ixfx/dist/bundle.js';
+import { Circles } from '../../ixfx/geometry.js';
+import { Svg } from '../../ixfx/visual.js';
+import { Numbers, Dom, Modulation } from '../../ixfx/bundle.js';
 
 const settings = Object.freeze({
   // Colour for text

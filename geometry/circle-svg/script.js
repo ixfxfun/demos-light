@@ -1,5 +1,5 @@
-import { Svg } from 'https://unpkg.com/ixfx/dist/visual.js';
-import { Numbers, Modulation, Dom } from 'https://unpkg.com/ixfx/dist/bundle.js';
+import { Svg } from '../../ixfx/visual.js';
+import { Numbers, Modulation, Dom } from '../../ixfx/bundle.js';
 
 // Define settings
 const settings = Object.freeze({

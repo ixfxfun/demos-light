@@ -1,5 +1,5 @@
-import { clamp } from 'https://unpkg.com/ixfx/dist/numbers.js';
-import { StateMachine, continuously } from 'https://unpkg.com/ixfx/dist/flow.js';
+import { clamp } from 'ixfx/numbers.js';
+import { StateMachine, continuously } from 'ixfx/flow.js';
 
 // Settings
 const settings = Object.freeze({

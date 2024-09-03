@@ -1,8 +1,7 @@
-import { Arrays } from 'https://unpkg.com/ixfx/dist/data.js';
-import { Points } from 'https://unpkg.com/ixfx/dist/geometry.js';
+import { Arrays } from 'ixfx/data.js';
+import { Points } from 'ixfx/geometry.js';
 import { Poses, PosesConsumer } from "../util/Poses.js";
 import * as Things from './thing.js';
-import * as Util from './util.js';
 
 const pc = new PosesConsumer({ maxAgeMs: 1000 });
 
@@ -70,7 +69,7 @@ const onPoseExpired = (event) => {
   // Get list of current pose guids
   const existing = new Set(poses.getGuids());
 
-  // Split the current list into dead/alive using https://unpkg.com/ixfx/dist Arrays.filterAB
+  // Split the current list into dead/alive using ixfx Arrays.filterAB
   const [dead, alive] = Arrays.filterAB(things, t => !existing.has(t.id));
 
   // Remove the dead thigns

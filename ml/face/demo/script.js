@@ -1,9 +1,8 @@
 // @ts-ignore
 import { Remote } from "https://unpkg.com/@clinth/remote@latest/dist/index.mjs";
-import * as Dom from 'https://unpkg.com/ixfx/dist/dom.js';
-import { Points } from 'https://unpkg.com/ixfx/dist/geometry.js';
+import * as Dom from 'ixfx/dom.js';
 import * as MpVision from "../../pose/util/Poses.js";
-import { average, Bipolar, scaleClamped } from "https://unpkg.com/ixfx/dist/numbers.js";
+import { average, Bipolar, scaleClamped } from "ixfx/numbers.js";
 
 const settings = Object.freeze({
   // How quickly to call update()

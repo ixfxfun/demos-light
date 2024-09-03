@@ -1,5 +1,5 @@
-import { CanvasHelper } from 'https://unpkg.com/ixfx/dist/dom.js';
-import { Points, Circles } from 'https://unpkg.com/ixfx/dist/geometry.js';
+import { CanvasHelper } from '../../ixfx/dom.js';
+import { Points, Circles } from '../../ixfx/geometry.js';
 
 const settings = Object.freeze({
   canvas: new CanvasHelper(`#canvas`, { fill: `viewport`, scaleBy: `min` }),

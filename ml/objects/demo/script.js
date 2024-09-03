@@ -1,6 +1,6 @@
 // @ts-ignore
 import { Remote } from "https://unpkg.com/@clinth/remote@latest/dist/index.mjs";
-import * as Dom from 'https://unpkg.com/ixfx/dist/dom.js';
+import * as Dom from 'ixfx/dom.js';
 import * as MpVision from "../util/Objects.js";
 const settings = Object.freeze({
   // How quickly to call update()
